@@ -43,7 +43,7 @@ while True:
             lang = update['message']['from']['language_code']
 
             if message == '/author':
-                send_message(chat_id, message_id, 'Author: @Dmitry_subb')
+                send_message(chat_id, message_id, 'Author: @Dmitrii')
 
             elif message == '/start' or message == '/help':
                 send_message(chat_id, message_id, instructions_ru)
